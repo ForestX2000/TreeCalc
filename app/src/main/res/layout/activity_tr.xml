@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tr"
+    tools:ignore="ExtraText"
+    android:background="#4B5080"
+    android:orientation="vertical">
+
+    // типы
+
+
+    <TextView
+        android:id="@+id/Tr_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="152dp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:onClick="ToTr_1"
+        android:text="Бревно"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/Tr_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="Брус"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:minHeight="48dp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/Tr_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="Лес"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:minHeight="48dp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/Tr_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="Бревно"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:minHeight="48dp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/Tr_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:text="Вода"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:minHeight="48dp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/Tr_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:text="Пень"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:minHeight="48dp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,SpUsage,TextSizeCheck"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

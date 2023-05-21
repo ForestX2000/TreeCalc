@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TreeCalc</string>
+
+    <string-array name="KmL">
+        <item>Хина</item>
+        <item>Сосна</item>
+        <item>Ель</item>
+        <item>Дуб</item>
+        <item>Клен</item>
+        <item>Бук</item>
+        <item>Ясень</item>
+    </string-array>
+
+    <string-array name="sost">
+        <item>сухая</item>
+        <item>влажная</item>
+    </string-array>
+
+</resources>
