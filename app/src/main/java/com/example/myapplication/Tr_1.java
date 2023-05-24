@@ -91,7 +91,7 @@ public class Tr_1 extends AppCompatActivity implements AdapterView.OnItemClickLi
             // out1.setText(a1[0]);
 
 
-            //out1.setText("блядь");
+            //out1.setText("2020");
 
         });
 
